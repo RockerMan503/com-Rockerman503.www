@@ -3,6 +3,11 @@
   text-align: center;
 }
 
+.centerBuffer
+{
+  height: 50%;
+}
+
 #supText
 {
   font-family: sans-serif;
