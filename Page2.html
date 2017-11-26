@@ -1,0 +1,88 @@
+	<!DOCTYPE html>
+<html>
+<head>
+<title>Moonshine Tavern</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<style type="text/css">
+		.ex-primary {
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 10vh;
+			max-width: 600px; 
+		}
+
+		.ex-text {
+			text-align: center;
+			font-family: 'Montserrat', sans-serif;
+			border: 1px solid black;
+			border-radius: 8px;
+		}
+
+	</style>
+<body>
+<h1>Moonshine Tavern</h1>
+<h2>Executive List</h2>
+<h3>We only serve 18+</h3>
+
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="page1.html">Services</a></li>
+  <li><a href="page2.html">Contact</a></li>
+</ul>
+<div class="ex-primary ex-text">
+<div>
+		<p> Questions? Comments? Concerns?: </p>
+		<form action="formCollected.php" method="post">
+			Contact:<br/>
+			<input type="text" name="contact" required><br/><br/>
+
+			Something About You:<br/>
+			<input type="text" name="notes" required><br/><br/>
+			
+			Would you come here again?:</br>
+			<input type="radio" name="again"
+			value="yes" required> Yes
+			<input type="radio" name="again"
+			value="maybe" required> maybe
+			<input type="radio" name="again"
+			value="no" required> No</br>
+		<input type="submit"><br/><br/><br/>
+	</div>
+</div>
+
+<h2>Contact Info</h2>
+<table style="width:100%">
+   <tr>
+	<th>Name</th>
+	<th>Contact number</th>
+	<th>email</th>
+   </tr>
+   <tr>
+	<th>Bojack Horseman</th>
+	<th>(555)026-5225</th>
+	<th>bojackhorseman@bojackhorseman.com</th>
+   </tr>
+   <th>Hambone Fakenamington</th>
+   <th>(555)026-5225</th>
+   <th> iamnotbojack@bojackhorseman.com </th>
+   </tr>
+   <tr>
+	<th>Princess Caroline</th>
+	<th>(555)626-2437</th>
+	<th>PC.Manager@Vigor.com</th>
+   </tr>
+</table>
+
+</body>
+
+<footer>
+<hr>
+<a href="https://www.facebook.com/RickAstley/?ref=br_rs"><img class="social" src="img/facebook.svg" alt="Facebook Link" width="50" height="50"></a> 
+<a href="https://twitter.com/rickastley?lang=en"><img class="social" src="img/twitter.png" alt="Twitter Link" width="50" height="50"></a> 
+<a href="https://www.youtube.com/user/RickAstleyVEVO"><img class="social" src="img/youtube.png" alt="YouTube Link" width="50" height="50"></a> 
+<p>Find us at 1600 Pennsylvania Ave NW, Washington, DC 20500 </p>
+<p>Contact us at moonshine.tavern@rw0.pw</p>
+</footer>
+</html>

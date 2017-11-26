@@ -1,0 +1,138 @@
+/* For my own personal use, this is an example of a note in CSS */
+
+h1 {
+	color: #cc9900; text-align: center;
+	font-family: "Arial Black";
+}
+
+h2 {
+	color: #e7c2ff; text-align: center;
+	font-family: "Arial Black";
+}
+
+h3 {
+	color: #ffcd8f; text-align: center;
+	font-family: "ariel black";
+}
+
+body {
+	background-color: #3d3d3d;
+}
+
+p {
+	color: #ffcc33;
+	
+}
+
+small {
+	color: #D1D1FF;
+}
+
+b {
+	color: #D1D1FF;
+}
+
+blockquote {
+	color: #ffcc33; background-color: #262626
+}
+
+/* This is part of the header and was borrowed from https://www.w3schools.com/css/css_navbar.asp */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #262626;
+}
+
+li {
+    float: left;
+    color: white;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+/* this marks the end of the code borrowed from https://www.w3schools.com/css/css_navbar.asp */
+table{
+	background-color: #ffd452;
+}
+
+th{
+	color: #6a0396
+}
+
+footer{
+	center
+}
+
+.picture {
+	padding: 5px;
+	border: 1px solid;
+	background-color:#fff;
+}
+
+.social {
+	padding: 5px;
+}
+
+.services {
+	max-width: 100%;
+	height: auto;
+	width: auto\9;
+	padding: 5px;
+	border: 1px solid;
+	background-color:#fff;
+}
+/* Fix this list for Pt 4, it's being weird for me */
+.other {
+	list-style-image: url('img/dim_sum.png');
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a:link {
+	color: #00ffff;
+}
+
+a:visited {
+	color: 7fff00;
+}
+
+a:hover {
+	color: #ccffff;
+}
+
+a:active {
+	color: #00ffcc
+}
+
+form{
+	background-color: #ffd452;
+	color: #6a0396;
+}
+
+.title{
+	color: #6a0396;
+	font-size: 18px;
+	font-family: arial black;
+}
